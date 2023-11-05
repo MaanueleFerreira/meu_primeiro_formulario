@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@200;400&family=Righteous&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("./pexels-codioful-\(formerly-gradienta\)-6985184.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-position: top;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+
+#container-cadastro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.imagem-cadastro {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
