@@ -101,12 +101,13 @@ button {
     font-weight: 600;
 }
 
-/* CADASRTO CADASTRO CADASSTRO CADASTRO */
+.genero-cadastro {
+    padding: 20px;
 
-#container-cadastro {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
 }
 
+.box-escolha-genero {
+    display: flex;
+    flex-direction: column;
+}
 

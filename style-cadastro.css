@@ -7,27 +7,150 @@
 }
 
 body {
-    background-image: url("./pexels-codioful-\(formerly-gradienta\)-6985184.jpg");
+    background-image: url("./20494660.jpg");
     background-repeat: no-repeat;
     background-size: 1400px;
     background-position: top;
     
+    width: 100%;
+    height: 100vh;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 
 #container-cadastro {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 50px;
 }
 
-/* tentar diminuir essa imagem*/
+
+/*queria igualar o fundo dele com o do lado*/
 .imagem-cadastro {
-    display: flex;
-    margin-top: 50px;
-    margin-left: 100px;
-    
+    padding: 30px;
+    /*background-color: #32A7E6;*/
+    height: 100%;
 }
+.imagem-cadastro img {
+    width: 400px;
+}
+
+.topo-telacadastro {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.texto-apresentacao {
+    font-family: 'Lobster', sans-serif;
+    font-size: 40px;
+    border-bottom: 3px solid #32A7E6;
+    color: #32A7E6;
+    text-shadow: 2px 2px 3px white ;
+}
+
+button {
+    width: 105px;
+    height: 40px;
+    margin-top: 10px;
+    
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+button:hover{
+    filter: brightness(90%);
+    cursor: pointer;
+}
+
+button:active{
+    border: 2px solid #8c8c8c;
+    filter: brightness(110%);
+    font-weight: 600;
+}
+
+.introducao {
+    margin-bottom: 10px;
+}
+
+.grupoinputs-cadastro {
+    display: flex;
+    flex-direction: column;
+}
+
+.primeiros-inputs {
+    display: flex;
+    padding-bottom: 20px;
+    gap: 20px;
+
+}
+
+input {
+    height: 35px;
+    border-radius: 10px;
+    font-size: 13px;
+
+    border: 1.5px solid #8c8c8c;
+    padding-left: 10px;
+}
+
+/*queria deixar eles alinhas de linhas de dois em dois, mas n rolou */
+.segundos-inputs {
+    display: flex;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+.terceiros-inputs {
+    display: flex;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+.genero-cadastro {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-cadastro {
+    margin-bottom: 10px;
+}
+
+/*ajeitar bolinha mais em cima*/
+.box-escolha-genero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.button-final {
+    width: 100%;
+    margin-top: 25px;
+}
+

@@ -12,71 +12,81 @@
             <img src="./tela principal cadastro.svg" alt="imagem ilustrativa de cadastro">
         </div>
 
+
         <div id="conteudo-formscadastro">
             <div class="inicio-tela-cadastro"> 
                 <div class="topo-telacadastro"> 
                     <h1 class="texto-apresentacao">Cadastre-se</h1>
 
                     <button class="botao-entrar">
-                        <a href="##">
+                        <a href="/inicio.html">
                           Entrar  
                         </a>
                     </button>
                 </div>
+            </div>
 
+            <div>
+                <h4 class="introducao">Informe seus dados</h4>
             </div>
 
             <div class="grupoinputs-cadastro"> 
-                <div class="inputs">
-                    <label for="firstname">
-                        Primeiro nome
-                        <input id="firstname" type="text" name="firstname" placeholder="digite seu primeiro nome" required>
-                    </label>
+                <div class="primeiros-inputs">
+                    <div class="inputs">
+                        <label for="firstname">
+                            Primeiro nome
+                            <input id="firstname" type="text" name="firstname" placeholder="digite seu primeiro nome" required>
+                        </label>
+                    </div>
+    
+                    <div class="inputs">
+                        <label for="lastname">
+                            Último nome
+                            <input id="lastname" type="text" name="lastname" placeholder="digite seu sobrenome" required>
+                        </label>
+                    </div>
+                </div>
+                
+
+                <div class="segundos-inputs">
+                    <div class="inputs">
+                        <label for="email">
+                            Email
+                            <input id="email" type="email" name="email" placeholder="digite seu email" required>
+                        </label>
+                    </div>
+    
+    
+                    <div class="inputs">
+                        <label for="number">
+                            Celular
+                            <input id="number" type="tel" name="number" placeholder="(XX) XXXX-XXXX" required>
+                        </label>
+                    </div>
                 </div>
 
-                <div class="inputs">
-                    <label for="lastname">
-                        Último nome
-                        <input id="lastname" type="text" name="lastname" placeholder="digite seu sobrenome" required>
-                    </label>
-                </div>
-
-
-                <div class="inputs">
-                    <label for="email">
-                        Email
-                        <input id="email" type="email" name="email" placeholder="digite seu email" required>
-                    </label>
-                </div>
-
-
-                <div class="inputs">
-                    <label for="number">
-                        Celular
-                        <input id="number" type="tel" name="number" placeholder="(XX) XXXX-XXXX" required>
-                    </label>
-                </div>
-
-                <div class="inputs">
-                    <label for="password">
-                        Senha
-                        <input id="password" type="password" name="password" placeholder="digite sua senha" required>
-                    </label>
-                </div>
-
-                <div class="inputs">
-                    <label for="password">
-                        Confirme sua senha
-                        <input id="password" type="password" name="Confirmpassword" placeholder="digite sua senha" required>
-                    </label>
+                <div class="terceiros-inputs">
+                    <div class="inputs">
+                        <label for="password">
+                            Senha
+                            <input id="password" type="password" name="password" placeholder="digite sua senha" required>
+                        </label>
+                    </div>
+    
+                    <div class="inputs">
+                        <label for="password">
+                            Confirme sua senha
+                            <input id="password" type="password" name="Confirmpassword" placeholder="digite sua senha" required>
+                        </label>
+                    </div>
                 </div>
 
                 
             </div>
 
-            <div class="gerero-cadastro"> 
+            <div class="genero-cadastro"> 
                 <div class="titulo-genero"> 
-                    <h6>Gênero</h6>
+                    <h4>Gênero</h4>
                 </div>
 
                 <div class="box-escolha-genero">
@@ -105,9 +115,9 @@
                 </div>
             </div>
 
-            <button type="submit"> 
-                <a href="##">
-                    Continuar
+            <button class="button-final" type="submit"> 
+                <a href="/login.html">
+                    Voltar tela Login
                 </a>
             </button>
 
